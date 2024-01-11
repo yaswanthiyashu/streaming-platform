@@ -1,0 +1,38 @@
+.heading {
+    height: 34px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.trending {
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: sticky;
+    top: 0;
+}
+
+@media screen and(min-width: 600px) {
+    .pafination {
+        transform: scale(0.6)
+    }
+}
+
+.container {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagination {
+    overflow: hidden;
+    justify-content: center;
+}
+
+.spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}

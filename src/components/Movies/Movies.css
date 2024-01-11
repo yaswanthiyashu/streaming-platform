@@ -1,0 +1,37 @@
+.movie-container {
+    cursor: pointer;
+    display: flex;
+    overflow: hidden;
+    height: 180px;
+    position: relative;
+    padding: 0;
+}
+
+.movies-container {
+    min-height: 80%;
+    margin-bottom: 50px;
+}
+
+.movie-container img{
+    position: absolute;
+    width: 100%;
+}
+
+.movie-container:hover {
+    opacity: 0.9;
+    border: 2px solid red;
+}
+
+.description {
+    text-align: left;
+    padding-top: 10px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 0;
+    height: 65px;
+    background-color: #D9D9D9;
+    width: 100%;
+    position: absolute;
+    top: 65%;
+    z-index: 10;
+}
